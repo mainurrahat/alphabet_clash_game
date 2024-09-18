@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- data-theme="light" -->
+
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alphabet-clash-game</title>
+    <!-- css file link korchi -->
+    <link rel="stylesheet" href="sty.css">
+    <!-- this is for tailwind and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontowsome link for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--font owsome for icon  -->
+    <script src="https://kit.fontawesome.com/b4d7b66561.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="back min-h-screen bg-[#010313] bg-no-repeat bg-center">
+        <section class="home min-h-screen text-white flex  justify-center items-center hidden">
+            <div class="flex flex-col items-center gap-10">
+                <h1 class="text-8xl font-serif uppercase">Alpha clash Pro</h1>
+                <p>Unlesh Your keyboard :press enter to play</p>
+                <button class="btn bg-white  text-black">play now</button>
+            </div>
+        </section>
+        <!-- playground start -->
+        <section class="playground">
+            <div class="flex flex-col items-center gap-20 pt-20">
+                <!-- screen -->
+                <div
+                    class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
+                    <div class="flex justify-center px-8 ">
+                        <p class="bg-[#2F2941] rounded-b-xl text-white">dont watch keyboard whaen pressing</p>
+                    </div>
+                    <div class="flex justify-center items-center h-full">
+                        <p class="text-black text-9xl font-bold">Y</p>
+
+                    </div>
+                </div>
+                <!-- screen end -->
+                <!-- keyboerd -->
+                <div>
+                    <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">q</kbd>
+                        <kbd class="kbd">w</kbd>
+                        <kbd class="kbd">e</kbd>
+                        <kbd class="kbd">r</kbd>
+                        <kbd class="kbd">t</kbd>
+                        <kbd class="kbd">y</kbd>
+                        <kbd class="kbd">u</kbd>
+                        <kbd class="kbd">i</kbd>
+                        <kbd class="kbd">o</kbd>
+                        <kbd class="kbd">p</kbd>
+                    </div>
+                    <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">a</kbd>
+                        <kbd class="kbd">s</kbd>
+                        <kbd class="kbd">d</kbd>
+                        <kbd class="kbd">f</kbd>
+                        <kbd class="kbd">g</kbd>
+                        <kbd class="kbd">h</kbd>
+                        <kbd class="kbd">j</kbd>
+                        <kbd class="kbd">k</kbd>
+                        <kbd class="kbd">l</kbd>
+                    </div>
+                    <div class="my-1 flex w-full justify-center gap-1">
+                        <kbd class="kbd">z</kbd>
+                        <kbd class="kbd">x</kbd>
+                        <kbd class="kbd">c</kbd>
+                        <kbd class="kbd">v</kbd>
+                        <kbd class="kbd">b</kbd>
+                        <kbd class="kbd">n</kbd>
+                        <kbd class="kbd">m</kbd>
+                        <kbd class="kbd">/</kbd>
+                    </div>
+                </div>
+                <!-- keyboard end -->
+                <!--score  -->
+                <div class="flex justify-between w-3/4">
+                    <button class="btn rounded-full bg-purple-300 px-4 text-black">Life
+                        <img src="alphabet-clash-pro-resources-main/images/heart.png" alt="">
+                        <span>1</span>
+                    </button>
+                    <button class="btn rounded-full bg-purple-300 px-4 text-black">score
+                        <img src="alphabet-clash-pro-resources-main/images/doller.png" alt="">
+                        <span>1</span>
+
+                    </button>
+                </div>
+                <!--score end  -->
+
+            </div>
+        </section>
+        <!-- playground end -->
+        <section class="score">
+
+        </section>
+    </main>
+
+</body>
+
+</html>
